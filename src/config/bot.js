@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Horneando con Sprout!",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -88,14 +88,14 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#27512c", 
+      secondary: "#27512c", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
-      warning: "#FEE75C", 
-      info: "#3498DB", 
+      success: "#27512c", 
+      error: "#27512c", 
+      warning: "#27512c", 
+      info: "#27512c", 
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -112,18 +112,18 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#27512c",
+        ended: "#27512c",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#27512c",
+        claimed: "#27512c",
+        closed: "#27512c",
+        pending: "#27512c",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#27512c",
+      birthday: "#27512c",
+      moderation: "#27512c",
 
       // Ticket priority color mapping.
       priority: {
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Cosmo",
       // Footer icon URL (null = no icon).
       icon: null,
     },
