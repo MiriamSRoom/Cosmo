@@ -1,6 +1,6 @@
 import { logger } from '../utils/logger.js';
 
-const prefix = "!" // En las commillas pon el prefijo que tu quieras
+const prefix = "cosmo" // En las commillas pon el prefijo que tu quieras
  
 const args = message.content.slice(prefix.length).trim().split(/ +/g);
 const command = args.shift().toLowerCase();
